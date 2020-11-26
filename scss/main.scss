@@ -1,0 +1,61 @@
+// @import "config" ;
+$primary-color: rgb(243, 12, 12);
+$secondary-color: rgb(67, 207, 207);
+$third-color: rgb(9, 95, 14);
+
+body,
+html {
+  height: 100vh;
+}
+
+.bottomleft {
+  color: $primary-color;
+}
+
+.bgimg {
+  background: url("https://lh3.googleusercontent.com/hDIRQ5w0l3vezKFHS3KkMxInDLa1Fu-fRfBzAxRB1a75Qxn_G64sgfqA4Pbsj6JYj00kOCt47k4DsYh9VGsiTOWxSTZ_y-7XIJ6BNEOdnHpZVTxYw4UjWBhAG982GYRWH3ykyzJCmMc=w2400");
+
+  height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: $primary-color;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  font-size: 2.1rem;
+  left: 3rem;
+  color: $secondary-color;
+  font-weight: 900;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: rem;
+}
+
+.middle {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-align: center;
+  font-weight: 900;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+#demo {
+  color: lighten($color: $third-color, $amount: 30);
+  border: 1px solid rgb(9, 95, 14);
+}

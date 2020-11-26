@@ -1,0 +1,25 @@
+{
+  "name": "countdown-page",
+  "version": "1.0.0",
+  "description": "Countdown timer page",
+  "main": "javascript.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o scss/css --recusrive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-the-coder/Countdown-Page.git"
+  },
+  "keywords": [
+    "Countdown"
+  ],
+  "author": "Tony the Coder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-the-coder/Countdown-Page/issues"
+  },
+  "homepage": "https://github.com/tony-the-coder/Countdown-Page#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
